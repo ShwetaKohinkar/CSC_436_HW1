@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
+        <style>
+            .wrapper{
+                margin: 3em;
+                box-shadow: 0px 0px 5px 5px bisque;
+                padding: 2em;
+                border-radius: 3em;
+            }
+            .top-row{
+                background-color: antiquewhite;
+                border-radius: 2em;
+            }
+           
+            .headshot{
+                height: 15em;
+                width: auto;
+                border: 5px solid white;
+                position: relative;
+                margin: 3em;
+            }
+            
+            .name{
+                position: relative;
+                margin: 3em;
+                text-align: center;
+                top: 2em;
+            }
+            .box{
+                box-shadow: 0px 0px 3px 3px bisque;
+                padding: 1em;
+                border-radius: 2em;
+            }
+            .logo-size{
+                text-align: center;
+                width: 2em;
+                border-radius: 50%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="row top-row">
+                    <div class="col">
+                        <img class="headshot" src="Images/headshot.png" alt="">
+                    </div>
+                    <div class="col name">
+                        <h1> <span style="color: brown; font-size: xxx-large;">Shweta Kohinkar</span></h1>
+                        <h5>Software Developer</h5>
+                        <div className='absolute'>
+                            <a href='https://www.linkedin.com/in/shweta-kohinkar/' target="_blank"><img src="Images/linkedIn.png" class="logo-size"/></a>
+                            <a href='https://github.com/ShwetaKohinkar/MyPortfolio' target="_blank"><img src="Images/github.png" class="logo-size"/></a>
+                            <a href='https://www.instagram.com/' target="_blank"><img src="Images/insta.png" class="logo-size"/></a>
+                          </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 2em;">
+                    <div class="col box">
+                        <h2> <span style="color: brown">About Me</span></h2>
+                        <div>
+                            <p>I'm a Full-Stack software Developer, pursuing Master's in Computer
+                            Science from DePaul University, Chicago. I've over 4.5 years of
+                            experience as a Software Developer at Tata Consultancy Services.
+                            During my tenure, I was deputed to Japan to work with the clients.
+                            My roles and responsibilities there were as a Developer as well as
+                            Onsite Coordinator</p>
+                            <span> 
+                                <span style="font-weight:bold">Email ID:</span>
+                                <a
+                                  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkwvWLBZMvWpzXRnvQZhqcqckVPNXCpRtBFwWJNlqzrJqVrgMBDvgvvrmDVJvZCNmSSJfr"
+                                  target="_blank"
+                                  className="email:hover">
+                                  shwetakohinkar30@gmail.com
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col box" style="margin-left: 2em;">
+                        <h2> <span style="color: brown">Skills</span></h2>
+                        <p><span style="font-weight:bold">Languages:</span> C#, Java, HTML, CSS, Python, LINQ, ASP.Net</p>
+                        <p><span style="font-weight:bold">Frameworks:</span> .Net/ .Net Core Framework, React</p>
+                        <p><span style="font-weight:bold">IDE:</span> IntelliJ IDEA, Microsoft Visual Studio 2015 and higher, SQL Management Studio, SQL Developer,
+                           Microsoft Azure. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
